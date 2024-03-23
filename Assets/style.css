@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(170, 228, 247);
+    transition: background-color 400ms ease
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(78, 202, 243);
+    transition: background-color 400ms ease;
+    padding: 100px;
+
+}
+
+.dark {
+    background-color: gray;
+    transition: background-color 400ms ease
+}
+
+.dark main{
+    
+    background-color: rgb(54, 54, 54);
+    transition: background-color 400ms ease
+}
+
+.dark label {
+    color: white;
+    transition: background-color 400ms ease
+}
+
+#my-form {
+    min-width: fit-content;
+   
+}
+
+
+
+#content-input {
+    text-wrap: wrap;
+    max-height: fit-content;
+    max-width: fit-content;
+}

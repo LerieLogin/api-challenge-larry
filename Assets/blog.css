@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(225, 241, 250);
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 700ms ease
+}
+
+
+section {
+    margin: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: groove rgb(138, 137, 137) 5px;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: right;
+    background-color: rgb(213, 238, 248);
+    padding: 50px;
+    transition: background-color 700ms ease
+}
+
+h2 {
+    border-bottom: solid black 2px;
+    
+    padding-left: 10px;
+}
+h3 {
+    padding-left: 10px;
+    padding-top: 7px;
+}
+p {
+    padding-left: 30px;
+}
+
+.dark {
+    background-color: rgb(70, 67, 67);
+    transition: background-color 700ms ease
+}
+.dark header {
+    background-color: gray;
+    transition: background-color 700ms ease
+}
+.dark section {
+    
+    min-width: 100px;
+    min-height: 100px;
+    background-color: rgb(221, 221, 221);
+    border: groove rgb(48, 47, 47) 5px;
+    transition: background-color 700ms ease
+}
+
+section:hover {
+    border-color: lightskyblue;
+}
